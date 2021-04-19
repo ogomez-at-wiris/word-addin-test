@@ -21,7 +21,7 @@ Office.onReady((info) => {
 export async function run() {
   return Word.run(async (context) => {
     document.getElementById("alertSpeaker").innerHTML =
-      "Welcome to MathType. To start working, please use the show task pane option in the home ribbon.";
+      "Enabled.";
     console.log("hi");
     const paragraph = context.document.body.insertParagraph("This is MathType", Word.InsertLocation.end);
     paragraph.font.color = "blue";
